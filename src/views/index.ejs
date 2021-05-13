@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= title  %> </title>
+    
+    <%- include ('partials/head')%>
+
+</head>
+<body>
+    
+    <%- include ('partials/navigation')%>
+
+    
+    <div class="container"> 
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/theRipper.png" class="card animate__animated  animate__bounceIn" 
+                alt="Logo image" width="600" height="200" style="display: inline-block; margin: 8.5%;"> 
+            </div>
+        </header>
+    </div>
+
+    <!-- PRIMERA SECCION -->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5-text-center">
+            <div class="col-sm-6"> <i class="fab fa-youtube fa-10x"></i> </div>
+            <div class="col-sm-6"> <h3>Number #1 argentinian streamer.</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque quas autem doloremque in culpa laudantium laboriosam expedita doloribus maiores. Sint magnam iure dolorum corporis tenetur ex labore reiciendis numquam. </p> 
+            </div>
+        </div>
+    </div>
+    <%- include ('partials/footer')%>
+</body>
+</html>
